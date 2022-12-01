@@ -1,0 +1,79 @@
+.title {
+  height: 4em;
+  font-family: 'Orchidea Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5em;
+  line-height: 130%;
+  margin-left: 17vw;
+  text-transform: uppercase;
+  color: #141414;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  margin-top: 3em;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 6%;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4em;
+}
+
+.imgLeft {
+  width: 46%;
+  height: 29%;
+  margin-right: 11vw;
+}
+
+.imgRight {
+  width: 30%;
+  height: 16%;
+  margin-left: 13%;
+}
+
+
+.card {
+  width: 29%;
+  height: 15%;
+  margin-top: 3%;
+  /* margin-left: 11vw; */
+}
+
+.cardTitle {
+  width: 85%;
+  height: 30%;
+
+  font-family: 'Orchidea Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5em;
+  line-height: 110%;
+  /* or 53px */
+
+  display: flex;
+  align-items: center;
+
+  color: #141414;
+}
+
+.cardText {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 130%;
+  /* or 23px */
+
+  display: flex;
+  align-items: center;
+
+  color: #141414;
+
+  margin-top: 4%;
+}

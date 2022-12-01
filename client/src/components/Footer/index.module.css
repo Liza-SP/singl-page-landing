@@ -1,0 +1,14 @@
+.footer {
+  width: 100vw;
+  height: 8em;
+  background: #141414;
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 5px;
+}
+
+.text {
+  color: rgba(255, 255, 255, 1);
+}

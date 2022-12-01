@@ -1,0 +1,21 @@
+.navbar {
+  width: 100vw;
+  height: 6em;
+  background: linear-gradient(0deg, #464341 0%, #010101 100%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.phone {
+  color: rgba(255, 255, 255, 1);
+}
+
+.phone2 {
+  height: 2em;
+  width: 2em;
+}
+
+.name {
+  margin-left: 0.5em;
+}
