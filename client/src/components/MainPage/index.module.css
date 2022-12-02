@@ -77,3 +77,54 @@
 
   margin-top: 4%;
 }
+
+@media screen and (max-width: 690px) {
+  .title {
+    margin-bottom: 3em;
+    margin-left: 0;
+    margin-top: 2em;
+    padding-right: 5em;
+    font-size: 1.7em;
+    line-height: 130%;
+  }
+
+  .container {
+    display: block;
+    margin-bottom: 2em;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 0;
+  }
+
+  .imgLeft {
+    width: 100vw;
+    margin: 0;
+  }
+  
+  .imgRight {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card {
+    padding: 4%;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .cardText {
+    margin-top: 2em;
+    font-size: 0.8em;
+  }
+
+  .cardTitle {
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.7em;
+    line-height: 110%;
+  }
+}

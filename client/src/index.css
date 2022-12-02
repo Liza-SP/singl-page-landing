@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  max-width: 100%;
 }
 li {
   list-style: none;
@@ -33,4 +34,6 @@ img {
   vertical-align: top;
 }
 
-
+@media screen and (max-width: 690px) {
+  width: 100vw;
+}

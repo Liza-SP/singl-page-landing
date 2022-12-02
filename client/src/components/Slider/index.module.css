@@ -24,3 +24,13 @@
   width: 18em;
   height: 25em;
 }
+
+@media screen and (max-width: 690px) {
+  .items:first-of-type {
+    padding-left: 0;
+  }
+
+  .img {
+    margin-left: 1em;
+  }
+}
